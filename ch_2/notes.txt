@@ -1,0 +1,4 @@
+Procedencia de Operadores em Java:
+	1. As operações aplicadas primeiro são as de multiplicação, divisão e resto. Se uma expressão conter mais de uma destas, elas serão aplicadas em ordem de esquerda para direita. Todas tem o mesmo nível de procedência.
+	2. As operações aplicadas depois são as de adição e subtração. Se uma expressão conter mais de uma destas, elas serão aplicadas em ordem de esquerda para direita. Elas tem o mesmo nível de procedência.
+	3. Sempre em todas as expressões são aplicadas primeiro o que tem dentro de um parêntese, como: a * (10 + (15+10)). Sempre será aplicado primeiro o (15 + 10) depois o (10 + 25) e depois o (a * 35).
