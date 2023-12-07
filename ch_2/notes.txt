@@ -2,3 +2,58 @@ Procedencia de Operadores em Java:
 	1. As operações aplicadas primeiro são as de multiplicação, divisão e resto. Se uma expressão conter mais de uma destas, elas serão aplicadas em ordem de esquerda para direita. Todas tem o mesmo nível de procedência.
 	2. As operações aplicadas depois são as de adição e subtração. Se uma expressão conter mais de uma destas, elas serão aplicadas em ordem de esquerda para direita. Elas tem o mesmo nível de procedência.
 	3. Sempre em todas as expressões são aplicadas primeiro o que tem dentro de um parêntese, como: a * (10 + (15+10)). Sempre será aplicado primeiro o (15 + 10) depois o (10 + 25) e depois o (a * 35).
+
+Exercícios de revisão:
+	2.1
+		a) chave esquerda, chave direita
+		b) if
+		c) //
+		d) tabulação, linha vazias, espaços em branco
+		e) palavras chave
+		f) java
+		g) print, printf, println
+	2.2
+		a) Falso, os comentários // fazem que tudo depois dele, seja ignorado pelo compilador.
+		b) Verdadeiro 
+		c) Falso, o compilador do java diferencia quando uma letra está em Maiusculo ou Minusculo.
+		d) Falso, todos os operadores podem ser usados por tipos numericos.
+		e) Falso, operadores *, /, % tem procedência de +, -
+	2.3
+		a) int c, thisIsAVariable, q76354, number;
+		b) System.out.print("Por favor, insira um número inteiro: ");
+		c) int value; value = input.nextInt();
+		d) System.out.println("This is a Java program");
+		e) System.out.printf("%s%n%s", "This is a Java", "program");
+		f) if (number != 7) {System.out.print("The variable number is not equal to 7");}
+	2.4
+		a) if (c < 7){....}
+		b) if (c >= 7) ...
+	2.5
+		a) // É um programa que lê 3 inteiro e soma elea e imprime0
+		b) Scanner input = new Scanner(System.in);
+		c) int x, y, z, result;
+		d) System.out.print("Pvf insira um número inteiro");
+		e) x = input.nextInt();
+		f) System.out.print("Pvf insira um número inteiro");
+		g) y = input.nextInt();
+		h) System.out.print("Pvf insira um número inteiro");
+		i) z = input.nextInt();
+		j) result = x * y * z; // CALCULAR UM PRODUTO É MULTIPLICAÇÃO
+		k) System.out.print(result);
+
+	2.6
+		import java.util.Scanner;
+		public class calc {
+			public static void main (String[] args) {
+				Scanner input = new Scanner(System.in);
+				int x, y, z, result;
+				System.out.print("Pvf insira um número inteiro");
+				x = input.nextInt();
+				System.out.print("Pvf insira um número inteiro");
+				y = input.nextInt();
+				System.out.print("Pvf insira um número inteiro");
+				z = input.nextInt();
+				result = x + y + z;
+				System.out.print(result);
+			}
+		}
