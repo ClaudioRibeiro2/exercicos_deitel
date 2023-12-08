@@ -57,3 +57,46 @@ Exercícios de revisão:
 				System.out.print(result);
 			}
 		}
+
+Questões:
+	2.7 Preencha as lacunas em cada uma das seguintes afirmações
+		a) Comentários;
+		b) Operadores de igualdade e relacionais.
+		c) +, -, *, /
+		d) Divisão e Resto
+		e) que estiver dentro de outro parênteses
+		f) váriavel
+	2.8 Escreva instruções Java que realizem cada uma das seguintes tarefas:
+		a) System.out.print("Enter an integer:");
+		b) int a = b * c;
+		c) // Esta classe efetua o cálculo de folhas de pagamento.
+	2.9  Determine se cada uma das seguintes afirmações é verdadeira ou falsa. Se falsa, explique
+		a) Verdadeiro
+		b) Verdadeiro
+		c) Verdadeiro
+		d) Falso, é proibido o nome de uma váriavel começar com número
+	2.10 Supondo que x = 2 e y = 3, o que cada uma das instruções a seguir exibe?
+		a) x = 2
+		b) Value of 2 + 2 is 4
+		c) x =
+		d) 4 = 4
+	2.11 Quais instruções Java a seguir contêm variáveis cujos valores são modificados?
+		a) Modificado
+		b) nope
+		c) nope
+		d) Modificado
+	2.12 Dado que y = ax³ + 7, quais das seguintes alternativas são instruções Java corretas para essa equação?
+		a) Certa 
+		b) Errada
+		c) Errada
+		d) Certa
+		e) Errada
+		f) Errada
+	2.13 Declare a ordem de avaliação dos operadores em cada uma das seguintes instruções Java e mostre o valor de x depois que cada instrução é realizada:
+		a) 3 * 6 = 18; 18 / 2 = 9; 9 + 7 = 16; 16 - 1 = 15
+		b) 2 % 2 = 0; 2 * 2 = 4; 2 / 2 = 1; 4 - 1 = 3
+		c) 9 * 3 / 3 = 9; 9 + 3 = 12; 27 * 12 = 324
+	2.14 Escreva um aplicativo que exiba os números de 1 a 4 na mesma linha com cada par de adjacentes separados por um espaço. Use as seguintes técnicas.
+		a) System.out.println("1 2 3 4)")
+		b) System.out.print("1");System.out.print(" 2");System.out.print(" 3");System.out.print(" 4/n")
+		c) System.out.printf(%d %d %d %d%n, 1, 2, 3, 4);
