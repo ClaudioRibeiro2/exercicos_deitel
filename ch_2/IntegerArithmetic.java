@@ -1,9 +1,9 @@
-//2.15
+//Exercice 2.15 (Aritmética)
 //Escreva um aplicativo, que solicite ao usuário inserir dois inteiros, obtenha dele esses números e 
 //imprima sua soma, produto, diferença e quociente (divisão). Utilize as técnicas mostradas na Figura 2.7.
 import java.util.Scanner;
 
-public class Exercicio215{
+public class IntegerArithmetic{
 	public static void main (String[] args){
 		// Atributos
 		int a;
