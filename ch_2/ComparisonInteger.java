@@ -5,9 +5,9 @@
 
 import java.util.Scanner;
 
-public class IntegerComparison {
+public class ComparisonInteger {
 	public static void main (String[] args){
-		// Atributos
+		// Attributes
 		int a;
 		int b;
 		Scanner scanner;

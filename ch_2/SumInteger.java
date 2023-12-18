@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Adicao {
+class SumInteger {
     // Main method
     public static void main(String[] args) {
         // Attributes

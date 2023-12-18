@@ -100,3 +100,29 @@ Questões:
 		a) System.out.println("1 2 3 4)")
 		b) System.out.print("1");System.out.print(" 2");System.out.print(" 3");System.out.print(" 4/n")
 		c) System.out.printf(%d %d %d %d%n, 1, 2, 3, 4);
+	2.15 - IntegerArithmetic.java
+	2.16 - IntegerComparison.java
+	2.17 - IntegerArithmeticComparison.java
+	2.18 - AsteriskDraw.java
+	2.19 - O que o seguinte código imprime? System.out.printf("*%n**%n***%n****%n*****%n");
+		*
+		**
+		***
+		****
+		*****
+	2.20 - O que o seguinte código imprime?
+		*
+		***
+		*****
+		****
+		**
+	2.21 - O que o seguinte código imprime?
+		*************
+	2.22 - O que o seguinte código imprime?
+		****
+		*****
+		******
+	2.23 - O que o seguinte código imprime?
+		*
+		***
+		*****

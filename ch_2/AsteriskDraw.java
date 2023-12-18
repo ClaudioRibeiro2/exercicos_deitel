@@ -79,7 +79,7 @@ public class AsteriskDraw {
 		draw(1, 7);
 		draw(1, 4);
 		breakLine();
-	} // Fim do método main
+	} // End of the method main
 
 	private static void draw(int asterisks, int blankSpace){
 		drawAsterisk(asterisks);
@@ -103,4 +103,4 @@ public class AsteriskDraw {
 	private static void breakLine(){
 		System.out.println();
 	}
-} // Fim da classe AsteriskDraw
+} // End of the class AsteriskDraw

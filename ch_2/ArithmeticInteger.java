@@ -3,9 +3,9 @@
 //imprima sua soma, produto, diferença e quociente (divisão). Utilize as técnicas mostradas na Figura 2.7.
 import java.util.Scanner;
 
-public class IntegerArithmetic{
+public class ArithmeticInteger{
 	public static void main (String[] args){
-		// Atributos
+		// Attributes
 		int a;
 		int b;
 		int resultado;

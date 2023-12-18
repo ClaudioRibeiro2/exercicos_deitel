@@ -6,9 +6,9 @@
 
 import java.util.Scanner;
 
-public class IntegerArithmeticComparison {
+public class ArithmeticComparisonInteger {
 	public static void main (String[] args){
-		// Atributos
+		// Attributes
 		int x = 0;
 		int y = 0;
 		int z = 0;
