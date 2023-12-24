@@ -27,17 +27,12 @@ public class BmiCalculator {
 		System.out.print("Enter a heigth in meters: ");
 		heigth = scanner.nextDouble();
 
-		System.out.println("\nCalculating your BMI...");
 		bmi = weigth / (heigth * heigth);
-
-		if (bmi < 18.5) {
-			System.out.printf("You BMI is: %.2f, you are underweigth.\n", bmi);
-		} else if (bmi >= 18.5 && bmi <= 24.9) {
-			System.out.printf("You BMI is: %.2f, you are normal weigth.\n", bmi);
-		} else if (bmi >= 25 && bmi <= 29.9) {
-			System.out.printf("You BMI is: %.2f, you are overweigth.\n", bmi);
-		} else if (bmi >= 30) {
-			System.out.printf("You BMI is: %.2f, you are obese.\n", bmi);
-		}
+		System.out.printf("\nYour BMI is: %.2f\n", bmi);
+		System.out.println("BMI VALUES\n" +
+						   "Underweight: less than 18.5\n" +
+						   "Normal: between 18.5 and 24.9\n" +
+						   "Overweight: between 25 and 29.9\n" +
+						   "Obese: 30 or greater\n");
 	}// End of main method
 } // End of the class BmiCalculator
