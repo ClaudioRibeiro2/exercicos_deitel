@@ -1,0 +1,68 @@
+Exercícios de Revisão
+
+3.1 - Preencha as lacunas em cada uma das seguintes sentenças:
+a) public; ok
+b) class; ok
+c) new; ok
+d) tipo da variável, nome da variável; ok
+e) ? errei 
+f) float, double; ok
+g) 15 digitos de precisão; errei
+h) nextDouble(); ok
+i) modificador; ok
+j) void; ok
+k) nextLine(); ok
+l) java.lang; ok
+m) ? errei
+n) float; errei
+o) 7; errei
+p) %f; ok
+q) primitivo, referência. ok
+
+a) public. b) class. c) new. d) tipo, nome. e) pacote padrão. f) float, double. g) precisão dupla. h) nextDouble. i) modificador. j) void. k) nextLine. l) java.lang. m) declaração import. n) número de ponto flutuante. o) simples. p) %f. q) primitivo, referência
+
+3.2 - Determine se cada uma das seguintes sentenças é verdadeira ou falsa. Se falsa, explique      por quê:
+a) Falsa, seguindo a notação camelo, nomes de métodos são iniciados com letra minúsculas; ok
+b) Verdadeiro; ok
+c) Verdadeiro; ok
+d) Não sei; errei
+e) Falsa, variáveis de instância são atributos de um classe; Ok
+f) Verdadeiro; ok
+g) Verdadeiro; Errei
+h) Verdadeiro; ok
+i) Verdadeiro; ok
+j) Verdadeiro; ok
+k) Verdadeiro; Errei
+
+a) Falsa. Por convenção, os nomes de método são iniciados com letra minúscula e todas as palavras subsequentes começam com letra maiúscula. b) Verdadeira. c) Verdadeira. d) Falsa. Uma variável de tipo primitivo não pode ser utilizada para invocar um método uma referência a um objeto é necessária para que os métodos do objeto possam ser invocados. e) Falsa. Essas variáveis são chamadas variáveis locais e só podem ser utilizadas no método em que são declaradas. f) Verdadeira. g) Falsa. As variáveis de instância de tipo primitivo são inicializadas por padrão. Deve-se atribuir um valor explicitamente a cada variável local. h) Verdadeira. i) Verdadeira. j) Verdadeira. k) Falsa. Esses literais são de tipo double por padrão.
+
+3.3 - Qual é a diferença entre uma variável local e uma variável de instância?
+R: 	A diferença é que uma variável local é declarado em um corpo de método e só pode ser utilizada ali, já a variável de instância é declarada em uma classe e é acessivel para os métodos da classe.
+
+3.4 - Explique o propósito de um parâmetro de método. Qual a diferença entre um parâmetro e um argumento?
+R: Um parâmetro é as informações adicionais que um método precisa para executar, já o argumento é
+o valor real que o parametro recebe, quando é chamado, como Integer.parseInt(input). Input é um argumento.
+3.5 - Qual é o objetivo da palavra-chave new? Explique o que acontece quando você a utiliza.
+R: O objetivo dela é instanciar um novo objeto de uma classe.
+
+3.6 - O que é um construtor padrão? Como as variáveis de instância de um objeto são inicializadas 
+se uma classe tiver somente um construtor padrão?
+R: Quando em uma classe não é declarada nenhum construtor, ela é instanciada com um construtor 
+padrão da classe Object, que apenas instancia o objeto, e não inicializa nenhuma variável de 
+instancia.
+
+3.7 - Explique o propósito de uma variável de instância.
+R: São variáveis de uma classe, que tem um valor diferente em cada instância.
+
+3.8 - A maioria das classes precisa ser importada antes de ser usada em um aplicativo. Por que 
+cada aplicativo pode utilizar as classes System e String sem importá-las antes?
+R: Pois na lingaguem java, toda classe importa automaticamente a biblioteca java.lang, que contem 
+as classes System e String.
+
+3.9 - Explique como um programa pode usar a classe Scanner sem importá-la.
+R: Você pode usar a classe Scanner sem importar, chamando todo o caminho dela, como por exemplo, ao inves de só colocar Scanner = new Scanner(), coloca java.util.Scanner = new java.util.Scanner()
+
+3.10 - Explique por que uma classe pode fornecer um método set e um método get para uma variável de instância.
+R: É utilizado estes método para encapsular alguma variável de instancia, para que ela nunca seja diretamente manipulada, deixando o código mais seguro e robusto.
+
+3.11 - 
